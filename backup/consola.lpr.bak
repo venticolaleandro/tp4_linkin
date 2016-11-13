@@ -5,7 +5,7 @@ uses
     {$IFDEF UNIX}{$IFDEF UseCThreads}
     cthreads, cmem
     {$ENDIF}{$ENDIF}
-    VectorD,MatrizD,  Dialogs, sysutils, Sistema;
+    VectorD,MatrizD,  Dialogs, sysutils, cls_Sistema;
 
 var
 

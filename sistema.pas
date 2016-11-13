@@ -1,4 +1,4 @@
-UNIT cls_Sistema;
+UNIT Sistema;
 
 {$mode objfpc}{$H+}
 
@@ -16,11 +16,13 @@ Type
         VecTindependientes:cls_vector;
         VecSolucion:cls_vector;
         bandControl:boolean; // Usado por los metodos
+        masc:integer;
     Public
-        constructor Crear();
-        Property Coef: cls_vector READ Coeficientes WRITE Coeficientes;
-        Property b: cls_vector READ VecTindependiente WRITE VecTindependiente;
+        constructor Crear(grado:integer=5; mascara:integer=0);
+        Property Coef: cls_matriz READ Coeficientes WRITE Coeficientes;
+        Property b: cls_vector READ VecTindependientes WRITE VecTindependientes;
         Property x: cls_vector READ VecSolucion WRITE VecSolucion;
+
         Procedure redimensionar(m:integer ; n:integer);
         function clon():cls_Sistema;
         procedure swappingRows();
@@ -41,6 +43,26 @@ Type
 
 IMPLEMENTATION
 
+        constructor cls_Sistema.Crear(grado:integer=5; mascara:integer=0);
+            begin
+                self.Coeficientes:=cls_matriz.crear(grado);
+                self.b:=cls_vector.crear(grado);
+                self.masc:=mascara;
+            end;
+
+        Procedure cls_Sistema.redimensionar(m:integer; n:integer);
+            begin
+                self.Coeficientes.Redimensionar(m,n);
+                self.b.Redimensionar(m);
+                self.x.Redimensionar(m);
+            end;
+
+        procedure cls_Sistema.
+
+        function clon():cls_Sistema;
+            Begin
+
+            end;
 
 END.
 

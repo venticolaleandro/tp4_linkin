@@ -30,11 +30,16 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <Units Count="1">
+    <Units Count="2">
       <Unit0>
         <Filename Value="consola.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="cls_sistema.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cls_Sistema"/>
+      </Unit1>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

@@ -7,46 +7,116 @@
       <Unit0>
         <Filename Value="consola.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <CursorPos X="12" Y="11"/>
-        <UsageCount Value="22"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="49" Y="8"/>
+        <UsageCount Value="39"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="MatrizD.pas"/>
-        <UsageCount Value="11"/>
+        <Filename Value="sistema.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Sistema"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="39" Y="57"/>
+        <UsageCount Value="39"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="VectorD.pas"/>
-        <EditorIndex Value="2"/>
-        <UsageCount Value="11"/>
+        <Filename Value="MatrizD.pas"/>
+        <TopLine Value="82"/>
+        <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
+        <Filename Value="VectorD.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="90"/>
+        <CursorPos X="22" Y="109"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
         <Filename Value="unit_gui.pas"/>
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UNIT_GUI"/>
-        <EditorIndex Value="3"/>
-        <CursorPos X="15" Y="23"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="23"/>
         <ComponentState Value="1"/>
-        <UsageCount Value="11"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="cls_sistema.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="cls_Sistema"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="9" Y="20"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="20"/>
       </Unit4>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="17" HistoryIndex="16">
+      <Position1>
+        <Filename Value="consola.lpr"/>
+        <Caret Line="11" Column="12"/>
+      </Position1>
+      <Position2>
+        <Filename Value="consola.lpr"/>
+        <Caret Line="8" Column="22"/>
+      </Position2>
+      <Position3>
+        <Filename Value="sistema.pas"/>
+        <Caret Column="6"/>
+      </Position3>
+      <Position4>
+        <Filename Value="sistema.pas"/>
+        <Caret Line="21" Column="34" TopLine="2"/>
+      </Position4>
+      <Position5>
+        <Filename Value="sistema.pas"/>
+        <Caret Line="48" Column="35" TopLine="23"/>
+      </Position5>
+      <Position6>
+        <Filename Value="sistema.pas"/>
+        <Caret Line="49" Column="22" TopLine="23"/>
+      </Position6>
+      <Position7>
+        <Filename Value="sistema.pas"/>
+        <Caret Line="56" Column="24" TopLine="23"/>
+      </Position7>
+      <Position8>
+        <Filename Value="sistema.pas"/>
+        <Caret Line="61" Column="22" TopLine="24"/>
+      </Position8>
+      <Position9>
+        <Filename Value="VectorD.pas"/>
+      </Position9>
+      <Position10>
+        <Filename Value="sistema.pas"/>
+        <Caret Line="57" Column="24" TopLine="24"/>
+      </Position10>
+      <Position11>
+        <Filename Value="VectorD.pas"/>
+        <Caret Line="109" Column="22" TopLine="90"/>
+      </Position11>
+      <Position12>
+        <Filename Value="sistema.pas"/>
+        <Caret Line="57" Column="24" TopLine="24"/>
+      </Position12>
+      <Position13>
+        <Filename Value="VectorD.pas"/>
+        <Caret Line="109" Column="22" TopLine="90"/>
+      </Position13>
+      <Position14>
+        <Filename Value="sistema.pas"/>
+        <Caret Line="57" Column="24" TopLine="24"/>
+      </Position14>
+      <Position15>
+        <Filename Value="VectorD.pas"/>
+        <Caret Line="109" Column="22" TopLine="90"/>
+      </Position15>
+      <Position16>
+        <Filename Value="sistema.pas"/>
+        <Caret Line="54" Column="35" TopLine="24"/>
+      </Position16>
+      <Position17>
+        <Filename Value="VectorD.pas"/>
+        <Caret Line="296" Column="34" TopLine="61"/>
+      </Position17>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>

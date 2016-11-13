@@ -3,36 +3,58 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="4">
+    <Units Count="5">
       <Unit0>
         <Filename Value="consola.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <CursorPos X="12" Y="11"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="49" Y="8"/>
+        <UsageCount Value="39"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="MatrizD.pas"/>
-        <UsageCount Value="10"/>
+        <Filename Value="sistema.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Sistema"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="39"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="VectorD.pas"/>
-        <EditorIndex Value="1"/>
-        <UsageCount Value="10"/>
+        <Filename Value="MatrizD.pas"/>
+        <TopLine Value="82"/>
+        <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
-        <Filename Value="unit_gui.pas"/>
-        <UnitName Value="UNIT_GUI"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="15" Y="23"/>
-        <UsageCount Value="10"/>
+        <Filename Value="VectorD.pas"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit3>
+      <Unit4>
+        <Filename Value="unit_gui.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UNIT_GUI"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="23"/>
+        <ComponentState Value="1"/>
+        <UsageCount Value="20"/>
+      </Unit4>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="consola.lpr"/>
+        <Caret Line="11" Column="12"/>
+      </Position1>
+      <Position2>
+        <Filename Value="consola.lpr"/>
+        <Caret Line="8" Column="22"/>
+      </Position2>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>
